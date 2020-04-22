@@ -1,0 +1,39 @@
+[Global]
+sensor_mode = 4
+resolution = 1920x1080
+stream_width_hi = 1920
+stream_height_hi = 1080
+WIDTH_LOW = 640
+HEIGHT_LOW = 480
+fps = 25
+VIDEO_SEGMENT_SIZE = 300
+MIN_DISK_SPACE = 1500
+tempPin = 4
+websocket_password = myPasswd
+
+[Email]
+recipient = recipient@email.com
+server = email.com
+port = 465
+username = user@email.com
+password = userPassword
+
+[CameraDay]
+saturation = 30
+awb_mode = horizon
+sharpness = 0
+contrast = 0
+brightness = 50
+exposure_mode = auto
+shutter_speed = 0
+rotation = 180
+
+[CameraNight]
+exposure_mode = nightpreview
+shutter_speed = 33000
+saturation = -100
+contrast = 100
+brightness = 80
+sharpness = 0
+rotation = 180
+awb_mode = horizon
